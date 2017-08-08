@@ -1,0 +1,30 @@
+{
+  "name": "graphql-cv",
+  "version": "0.0.0",
+  "description": "My CV queryable with GraphQL",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "node.js",
+    "graphql",
+    "api",
+    "curriculum vitae"
+  ],
+  "author": "Luke Stoward <luke_stoward@hotmail.co.uk>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Stoward94/graphql-cv"
+  },
+  "dependencies": {
+    "express": "^4.15.4",
+    "express-graphql": "^0.6.7",
+    "graphql": "^0.10.5"
+  },
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
+  }
+}
