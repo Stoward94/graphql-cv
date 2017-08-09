@@ -1,0 +1,54 @@
+{
+  "name": "Luke Stoward",
+  "email": "luke_stoward@hotmail.co.uk",
+  "github": "github.com/stoward94",
+  "linkedIn": "linkedin.com/in/luke-stoward/",
+  "stackOverflow": "stackoverflow.com/users/3420171/luke-stoward",
+
+  "biography": "blah blah",
+
+  "experience": [
+    {
+      "jobTitle": "",
+      "company": "",
+      "location": "",
+      "startDate": "",
+      "endDate": "",
+      "current": false,
+      "description": "",
+      "languages": ["", "" , ""]
+    }
+  ],
+
+  "education": [
+    {
+      "school": "",
+      "degree": "",
+      "fieldOfStudy": "",
+      "grade": "",
+      "startDate": "",
+      "endDate": "",
+      "modules": [
+        {
+          "title": "",
+          "result": ""
+        }
+      ]
+    }
+  ],
+
+  "skills": [
+    {
+        "name": "",
+        "rating": "",
+        "details": ""
+    }
+  ],
+
+  "interests": [
+    {
+      "name": "",
+      "details": ""
+    }
+  ]
+}
