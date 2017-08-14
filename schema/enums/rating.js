@@ -6,7 +6,8 @@ module.exports = new GraphQLEnumType({
   description: 'Rating ENUM represents common rating classifications',
 
   values: {
-    Basic: {value: 'Basic'},
-    Expert: {value: 'Expert'}
+    Novice: {value: 'Novice'},
+    Working: {value: 'Working knowledge'},
+    Experienced: {value: 'Experienced'}
   }
 });

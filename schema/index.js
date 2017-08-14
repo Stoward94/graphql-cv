@@ -52,24 +52,24 @@ const RootQueryType = new GraphQLObjectType({
 
     education: {
       type: new GraphQLList(Education),
-      description: 'A list of my academic studies',
+      description: 'A list of my academic studies and qualifications',
 
       resolve: (obj, agrs, {jsondb}) => jsondb.getEducation()
     },
 
     skill: {
-      type: Skill,
+      type: new GraphQLList(Skill),
+      description: 'A list of my skills, their experience ratings and a brief explanation',
+
       args: {
         name: {type: GraphQLString}
       },
-      resolve: () => {
-        // TODO: Connect me
-      }
+      resolve: (obj, agrs, {jsondb}) => jsondb.getSkills()
     },
 
     interests: {
       type: Interests,
-      description: '...',
+      description: 'A list of my interests, hobbies, you know not work stuff',
 
       resolve: () => {
         // TODO: Connect me

@@ -9,7 +9,7 @@ const jsondb = require('./lib/jsondb');
 
 const app = express();
 
-app.use('/', graphqlHTTP({
+app.use('/graphql', graphqlHTTP({
   schema: schema,
   graphiql: true,
   context: {jsondb}
