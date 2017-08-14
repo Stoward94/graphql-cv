@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "dev": "nodemon --exec npm start",
-    "test": "mocha"
+    "test": "mocha tests"
   },
   "keywords": [
     "node.js",
