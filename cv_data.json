@@ -5,9 +5,7 @@
 	"github": "github.com/stoward94",
 	"linkedIn": "linkedin.com/in/luke-stoward/",
 	"stackoverflow": "stackoverflow.com/users/3420171/luke-stoward",
-
 	"biography": "...",
-
 	"experience": [{
 			"jobTitle": "Technologist (Summer Intern 2017)",
 			"company": "YouView",
@@ -16,8 +14,15 @@
 			"endDate": "09/2017",
 			"current": true,
 			"description": "",
-			"languages": ["JavaScript"],
-			"technologies": ["Node.js", "GraphQL"]
+			"languages": [
+				"JavaScript"
+			],
+			"technologies": [
+				"Node.js",
+				"GraphQL",
+				"MongoDB",
+				"Docker"
+			]
 		},
 		{
 			"jobTitle": "Technologist (Summer Intern 2016)",
@@ -27,10 +32,19 @@
 			"endDate": "09/2017",
 			"current": false,
 			"description": "",
-			"languages": ["JavaScript", "C++", "Python", "HTML", "CSS"],
-			"technologies": ["Node.js"]
-    },
-    {
+			"languages": [
+				"JavaScript",
+				"C++",
+				"Python",
+				"HTML",
+				"CSS"
+			],
+			"technologies": [
+				"Node.js",
+				"MongoDB"
+			]
+		},
+		{
 			"jobTitle": "Software Developer (Undergraduate)",
 			"company": "Software Solved",
 			"location": "Exeter, UK",
@@ -38,11 +52,21 @@
 			"endDate": "09/2015",
 			"current": false,
 			"description": "",
-			"languages": ["C#", "HTML", "CSS", "JavaScript", "SQL", "VBA"],
-			"technologies": ["ASP.NET", "SQL Server", "Umbraco CMS"]
+			"languages": [
+				"C#",
+				"HTML",
+				"CSS",
+				"JavaScript",
+				"SQL",
+				"VBA"
+			],
+			"technologies": [
+				"ASP.NET",
+				"SQL Server",
+				"Umbraco CMS"
+			]
 		}
 	],
-
 	"education": [{
 			"school": "Kingston University",
 			"degree": "Masters of Science",
@@ -83,7 +107,27 @@
 			"grade": "First Class Honours",
 			"startDate": "09/2012",
 			"endDate": "06/2016",
-			"modules": []
+			"modules": [{
+					"title": "Client-side Web Scripting",
+					"result": "71%"
+				},
+				{
+					"title": "Server-side Application Development",
+					"result": "73%"
+				},
+				{
+					"title": "Object-Oriented Software Engineering with Design Patterns",
+					"result": "70%"
+				},
+				{
+					"title": "Artificial Intelligence for Games Development",
+					"result": "60%"
+				},
+				{
+					"title": "Project Dissertation",
+					"result": "79%"
+				}
+			]
 		},
 		{
 			"school": "Bridgwater College",
@@ -92,10 +136,11 @@
 			"grade": "Triple Distinction, Triple Star (D*D*D*)",
 			"startDate": "09/2010",
 			"endDate": "06/2012",
-			"modules": []
+			"modules": [
+
+			]
 		}
 	],
-
 	"skills": [{
 			"name": "C#",
 			"rating": "Experienced",
@@ -135,16 +180,20 @@
 			"name": "SQL",
 			"rating": "Working knowledge",
 			"details": "Many of my C# related projects have used SQL relational databases, as such my SQL knowledge has prospered."
-    },
-    {
+		},
+		{
 			"name": "Node.js",
 			"rating": "Experienced",
 			"details": "Extensive time spent developing with the Node.js runtime, both professional and personally."
-    }
+		}
 	],
-
 	"interests": [{
-		"name": "",
-		"details": ""
-	}]
+			"name": "Video games",
+			"details": "Of course I love video games! I spent several years building games as part of my undergraduate degree."
+		},
+		{
+			"name": "Meetups",
+			"details": "I frequently attend meetups covering various tech topics, to connect with and learn from experts in their fields."
+		}
+	]
 }
